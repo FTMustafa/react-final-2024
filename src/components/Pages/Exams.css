@@ -1,0 +1,17 @@
+.class-box{
+    display: flex;
+    height: 100px;
+    width: 95%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    padding-left: 5%;
+}
+
+.class-object-box{
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    height: 100%;
+    width: 20%;
+}

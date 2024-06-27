@@ -1,0 +1,48 @@
+.a {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #7BC9FF;
+}
+
+.navbar {
+  display: flex;
+  height: 100vh;
+  background-color: #1C1678;
+  width: 230px;
+  flex-direction: column;
+  align-items: center;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+.mail-box {
+  display: flex;
+  height: 50px;
+  width: 230px;
+  background-color: #8576FF;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 25px;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.exit {
+  margin-top: auto;
+  margin-bottom: 25px;
+}
+
+.var-page {
+  width: 100%;
+  background-color: #7BC9FF;
+}
+

@@ -1,0 +1,26 @@
+.default-content{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading{
+    --pd: 20px;
+    background-color: rgba(0, 0, 255, 0.49);
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 204);
+}
+
+.text{
+    --pd: 10px;
+    padding-left: var(--pd);
+    padding-right: var(--pd);
+    border-radius: 30px;
+    border: 1px solid;
+}
